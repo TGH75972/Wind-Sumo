@@ -1,14 +1,14 @@
 {
-	"required": true,
-	"package": "net.wind.sumo.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+"required": true,
+"package": "net.wind.sumo.mixin",
+"compatibilityLevel": "JAVA_21",
+"mixins": [
+"PlayerEntityMixin"
+],
+"injectors": {
+"defaultRequire": 1
+},
+"overwrites": {
+"requireAnnotations": true
+ } 
 }

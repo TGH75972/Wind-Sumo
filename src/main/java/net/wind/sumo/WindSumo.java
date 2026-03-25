@@ -1,6 +1,7 @@
 package net.wind.sumo;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
@@ -13,17 +14,16 @@ import java.util.Collections;
 public class WindSumo implements ModInitializer{
 @SuppressWarnings("null")
 @Override
-public void onInitialize() {
+public void onInitialize(){
 UseBlockCallback.EVENT.register((player, world, hand, hitResult)->{
 if(!world.isClient() && hand == Hand.MAIN_HAND){
 if(world.getBlockState(hitResult.getBlockPos()).isOf(Blocks.POLISHED_BLACKSTONE_BUTTON)){
 SumoGameManager.onButtonClick((ServerPlayerEntity) player, world.getServer());
 return ActionResult.SUCCESS;
-  } 
+} 
 }
 return ActionResult.PASS;
 });
-
 ServerPlayConnectionEvents.JOIN.register((handler, sender, server)->{
 ServerPlayerEntity player = handler.getPlayer();
 player.changeGameMode(GameMode.ADVENTURE);
@@ -36,12 +36,15 @@ newPlayer.teleport(newPlayer.getCommandSource().getServer().getOverworld(), Sumo
 ServerPlayConnectionEvents.DISCONNECT.register((handler, server)->{
 SumoGameManager.onPlayerLeave(handler.getPlayer(), server);
 });
+ServerLifecycleEvents.SERVER_STOPPING.register(server -> {
+SumoGameManager.onServerShutdown(server);
+});
 ServerTickEvents.END_SERVER_TICK.register(server->{
 for(ServerPlayerEntity player : server.getPlayerManager().getPlayerList()){
 player.getHungerManager().setFoodLevel(20);
 player.getHungerManager().setSaturationLevel(5.0f);
 }
 SumoGameManager.tick(server);
-  });
+});
 }
 }

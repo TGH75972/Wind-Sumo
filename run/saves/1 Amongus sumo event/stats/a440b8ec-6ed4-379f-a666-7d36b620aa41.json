@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:slime_block": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 89272,
+      "minecraft:walk_one_cm": 48521,
+      "minecraft:leave_game": 34,
+      "minecraft:damage_taken": 1662,
+      "minecraft:play_time": 89272,
+      "minecraft:damage_dealt": 150,
+      "minecraft:jump": 330,
+      "minecraft:time_since_death": 89272,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 5293,
+      "minecraft:total_world_time": 89272,
+      "minecraft:fly_one_cm": 31969,
+      "minecraft:walk_on_water_one_cm": 4358,
+      "minecraft:crouch_one_cm": 622,
+      "minecraft:sneak_time": 352
+    },
+    "minecraft:used": {
+      "minecraft:slime_block": 1,
+      "minecraft:wind_charge": 225
+    },
+    "minecraft:dropped": {
+      "minecraft:wind_charge": 18,
+      "minecraft:slime_block": 1
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:white_wool": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 79460,
+      "minecraft:walk_one_cm": 48258,
+      "minecraft:leave_game": 23,
+      "minecraft:damage_taken": 1510,
+      "minecraft:play_time": 79460,
+      "minecraft:damage_dealt": 1105,
+      "minecraft:jump": 268,
+      "minecraft:time_since_death": 79460,
+      "minecraft:sprint_one_cm": 4895,
+      "minecraft:total_world_time": 79460,
+      "minecraft:fly_one_cm": 30041,
+      "minecraft:crouch_one_cm": 134,
+      "minecraft:walk_on_water_one_cm": 1919,
+      "minecraft:sneak_time": 87
+    },
+    "minecraft:used": {
+      "minecraft:wind_charge": 244,
+      "minecraft:black_wool": 1
+    }
+  },
+  "DataVersion": 4671
+}

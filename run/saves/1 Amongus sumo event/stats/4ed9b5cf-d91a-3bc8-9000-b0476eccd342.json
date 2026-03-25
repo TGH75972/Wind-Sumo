@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3898,
+      "minecraft:walk_one_cm": 2983,
+      "minecraft:total_world_time": 3997,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 3898,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 3898,
+      "minecraft:drop": 1
+    },
+    "minecraft:mined": {
+      "minecraft:polished_blackstone_button": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:polished_blackstone_button": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:polished_blackstone_button": 1
+    },
+    "minecraft:used": {
+      "minecraft:wind_charge": 12,
+      "minecraft:polished_blackstone_button": 2
+    }
+  },
+  "DataVersion": 4671
+}

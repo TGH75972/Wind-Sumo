@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:polished_blackstone_button": 1,
+      "minecraft:cyan_terracotta": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:cyan_terracotta": 2
+    },
+    "minecraft:used": {
+      "minecraft:cyan_terracotta": 1,
+      "minecraft:polished_blackstone_button": 5,
+      "minecraft:jungle_log": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 5651,
+      "minecraft:walk_one_cm": 8343,
+      "minecraft:total_world_time": 6565,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 62,
+      "minecraft:sneak_time": 38,
+      "minecraft:play_time": 5651,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 5651,
+      "minecraft:drop": 2
+    }
+  },
+  "DataVersion": 4671
+}

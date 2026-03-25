@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:creeper": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 208,
+      "minecraft:walk_one_cm": 6771,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 364,
+      "minecraft:play_time": 3344,
+      "minecraft:jump": 6,
+      "minecraft:time_since_death": 208,
+      "minecraft:sprint_one_cm": 2119,
+      "minecraft:fall_one_cm": 676,
+      "minecraft:total_world_time": 3444,
+      "minecraft:fly_one_cm": 1896,
+      "minecraft:crouch_one_cm": 242,
+      "minecraft:walk_on_water_one_cm": 1206,
+      "minecraft:sneak_time": 74,
+      "minecraft:deaths": 6
+    },
+    "minecraft:picked_up": {
+      "minecraft:wind_charge": 64,
+      "minecraft:iron_door": 1,
+      "minecraft:jungle_log": 1,
+      "minecraft:cyan_terracotta": 1
+    },
+    "minecraft:used": {
+      "minecraft:cyan_terracotta": 21
+    }
+  },
+  "DataVersion": 4671
+}

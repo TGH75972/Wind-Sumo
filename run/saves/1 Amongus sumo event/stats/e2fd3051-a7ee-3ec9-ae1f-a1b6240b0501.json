@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:wind_charge": 4,
+      "minecraft:polished_blackstone_button": 1,
+      "minecraft:iron_door": 7
+    },
+    "minecraft:picked_up": {
+      "minecraft:wind_charge": 64,
+      "minecraft:iron_door": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:iron_door": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 194,
+      "minecraft:time_since_rest": 20376,
+      "minecraft:walk_one_cm": 9225,
+      "minecraft:total_world_time": 26335,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 9297,
+      "minecraft:sneak_time": 58,
+      "minecraft:play_time": 22133,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 10,
+      "minecraft:time_since_death": 20352,
+      "minecraft:drop": 1
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:polished_blackstone_button": 1,
+      "minecraft:bamboo_fence": 36
+    },
+    "minecraft:mined": {
+      "minecraft:bamboo_fence": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:bamboo_fence": 69,
+      "minecraft:polished_blackstone_button": 1
+    },
+    "minecraft:used": {
+      "minecraft:bamboo_fence": 65
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2183,
+      "minecraft:time_since_rest": 3981,
+      "minecraft:walk_one_cm": 14957,
+      "minecraft:total_world_time": 4067,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 13265,
+      "minecraft:play_time": 3981,
+      "minecraft:jump": 28,
+      "minecraft:time_since_death": 3981,
+      "minecraft:drop": 6
+    }
+  },
+  "DataVersion": 4671
+}

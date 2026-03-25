@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:wind_charge": 30
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 309,
+      "minecraft:time_since_rest": 5578,
+      "minecraft:walk_one_cm": 5617,
+      "minecraft:total_world_time": 6140,
+      "minecraft:fly_one_cm": 954,
+      "minecraft:damage_taken": 920,
+      "minecraft:walk_on_water_one_cm": 30,
+      "minecraft:play_time": 6000,
+      "minecraft:damage_dealt": 20,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 68,
+      "minecraft:time_since_death": 5537
+    }
+  },
+  "DataVersion": 4671
+}

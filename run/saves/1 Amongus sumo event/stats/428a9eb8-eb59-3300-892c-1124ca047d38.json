@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:wind_charge": 16,
+      "minecraft:glass": 1,
+      "minecraft:spruce_button": 4,
+      "minecraft:jungle_hanging_sign": 1,
+      "minecraft:iron_door": 2,
+      "minecraft:white_wool": 65
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 5415,
+      "minecraft:time_since_rest": 19546,
+      "minecraft:walk_one_cm": 18242,
+      "minecraft:total_world_time": 19863,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 6839,
+      "minecraft:crouch_one_cm": 3550,
+      "minecraft:sneak_time": 927,
+      "minecraft:play_time": 19546,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 19546
+    }
+  },
+  "DataVersion": 4671
+}
